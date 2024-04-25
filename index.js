@@ -89,8 +89,15 @@ module.exports = {
       this.addValue(category, key, value);
     };
 
-    deleteValue = (category, key) => {
+    deleteValue = (category, key, isDeleteCat) => {
       delete this.data[category][key];
+      if (isDeleteCat && Object.keys(this.data[category]).length === 0) {
+        this.deleteCategory(category);
+      }
+    };
+
+    deleteCategory = (category) => {
+      delete this.data[category];
     };
   },
 };

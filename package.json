@@ -1,5 +1,5 @@
 {
-  "name": "metricshandler",
+  "name": "metrics-handler",
   "version": "1.0.0",
   "description": "Parse, Stringify and CRUD Metric data",
   "main": "index.js",
