@@ -1,0 +1,12 @@
+{
+  "name": "metricshandler",
+  "version": "1.0.0",
+  "description": "Parse, Stringify and CRUD Metric data",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "metric"
+  ],
+  "author": "projectkmscom@gmail.com",
+  "license": "MIT"
+}
