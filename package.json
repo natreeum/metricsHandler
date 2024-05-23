@@ -1,7 +1,7 @@
 {
-  "name": "metrics-handler",
+  "name": "handle-metric",
   "version": "1.0.0",
-  "description": "Parse, Stringify and CRUD Metric data",
+  "description": "Parse, Stringify and CRUD Prometheus format Metric data",
   "main": "index.js",
   "scripts": {},
   "keywords": [
