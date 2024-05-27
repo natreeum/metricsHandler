@@ -4,10 +4,14 @@
   "description": "Parse, Stringify and CRUD Prometheus format Metric data",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "babel src --out-dir dist/cjs --env-name cjs",
     "build:esm": "babel src --out-dir dist/esm --env-name esm"
+  },
+  "bugs": {
+    "url": "https://github.com/natreeum/metricsHandler"
   },
   "keywords": [
     "metric",

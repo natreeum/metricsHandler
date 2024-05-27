@@ -21,9 +21,11 @@ Holders 300
 
 # Usage
 
-Support CJS only yet.
+Support CJS, ESM
 
 `const metrics = require('metrics-handler')`
+
+`import metrics = require('metrics-handler')`
 
 ## Parse Metrics
 
