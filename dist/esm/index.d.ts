@@ -1,4 +1,4 @@
-declare module "my-package" {
+declare module "handle-metric" {
   export function parseMetric(
     metric: string
   ): Record<string, Record<string, string>>;
