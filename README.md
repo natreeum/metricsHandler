@@ -25,7 +25,7 @@ Support CJS, ESM
 
 `const metrics = require('metrics-handler')`
 
-`import metrics = require('metrics-handler')`
+`import metrics from 'metrics-handler'`
 
 ## Parse Metrics
 

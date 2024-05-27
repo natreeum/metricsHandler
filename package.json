@@ -1,6 +1,6 @@
 {
   "name": "handle-metric",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Parse, Stringify and CRUD Prometheus format Metric data",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
