@@ -1,12 +1,21 @@
 {
   "name": "handle-metric",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Parse, Stringify and CRUD Prometheus format Metric data",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "babel src --out-dir dist/cjs --env-name cjs",
+    "build:esm": "babel src --out-dir dist/esm --env-name esm"
+  },
   "keywords": [
-    "metric"
+    "metric",
+    "Prometheus"
   ],
   "author": "projectkmscom@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }

@@ -1,4 +1,4 @@
-const metrics = require("./index");
+const metrics = require("./src/index");
 
 const newMetrics = new metrics.metric();
 newMetrics.addValue("Category 1", "TotalSupply", 1000);
